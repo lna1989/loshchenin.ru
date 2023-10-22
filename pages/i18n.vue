@@ -35,5 +35,9 @@
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+  layout: 'default'
+})
+
 const {t, d, n} = useI18n()
 </script>

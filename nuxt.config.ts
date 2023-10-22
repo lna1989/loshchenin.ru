@@ -4,7 +4,11 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss',
         '@nuxtjs/i18n',
+        '@nuxtjs/google-fonts',
     ],
+    tailwindcss: {
+        configPath: '~/configs/tailwind.config.ts'
+    },
     i18n: {
         vueI18n: '~/configs/vue-i18n.ts',
         strategy: 'prefix_except_default',
@@ -30,5 +34,11 @@ export default defineNuxtConfig({
         lazy: true,
         detectBrowserLanguage: false,
         debug: false,
+    },
+    googleFonts: {
+        families: {
+            Roboto: true,
+            'Fira+Code': true
+        }
     }
 })
