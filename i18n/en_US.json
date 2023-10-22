@@ -1,0 +1,17 @@
+{
+  "i18n": {
+    "block": {
+      "date": {
+        "title": "Date of:"
+      },
+      "message": {
+        "t": "Hello World!",
+        "tc": "no elements | one element | {count} element| {count} elements",
+        "title": "Text messages:"
+      },
+      "number": {
+        "title": "Numbers:"
+      }
+    }
+  }
+}
