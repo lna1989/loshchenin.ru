@@ -4,16 +4,16 @@
 
 
 .theme-light {
-    --background: #f8f8f8;
-    --text: #313131;
-    --divider: #515151;
+    --background: #ffffff;
+    --text: #111111;
+    --divider: #313131;
 }
 
 
 .theme-dark {
-    --background: #313131;
-    --text: #f8f8f8;
-    --divider: #515151;
+    --background: #111111;
+    --text: #ffffff;
+    --divider: #313131;
 }
 
 @layer base {

@@ -13,5 +13,57 @@
         "title": "Числа:"
       }
     }
+  },
+  "me": {
+    "birth_date": "8 ноября 1989",
+    "current_stack": {
+      "title": "Мой основной стек технологий:"
+    },
+    "fio": {
+      "firstname": "Никита",
+      "lastname": "Лощенин",
+      "long": "Лощенин Никита Алексеевич",
+      "middlename": "Алексеевич",
+      "short": "Лощенин Н.А."
+    },
+    "gender": "Мужчина",
+    "position": {
+      "long": "Front-End разработчик",
+      "short": "FE developer"
+    },
+    "сontact_information": {
+      "email": "nikita{'@'}loshchenin.ru",
+      "place": "Россия, г.Ульяновск",
+      "preferably": "(предпочтительно)",
+      "title": "Контакты:"
+    }
+  },
+  "technology": {
+    "group": {
+      "api": {
+        "title": "API"
+      },
+      "applied": {
+        "title": "APPLIED"
+      },
+      "core": {
+        "title": "Основной  стек"
+      },
+      "database": {
+        "title": "Database"
+      },
+      "js": {
+        "title": "JavaScript"
+      },
+      "ui": {
+        "title": "UI"
+      },
+      "vue_extension": {
+        "title": "Vue.js расширения"
+      },
+      "web": {
+        "title": "Web"
+      }
+    }
   }
 }

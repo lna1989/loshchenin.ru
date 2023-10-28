@@ -13,5 +13,57 @@
         "title": "Лічбы:"
       }
     }
+  },
+  "me": {
+    "birth_date": "8 лістапада 1989",
+    "current_stack": {
+      "title": "Мой асноўны стэк тэхналогій:"
+    },
+    "fio": {
+      "firstname": "Мікіта",
+      "lastname": "Лашчэнін",
+      "long": "Лашчанін Мікіта Аляксеевіч",
+      "middlename": "Аляксеевіч",
+      "short": "Лашчанін М.А."
+    },
+    "gender": "Мужчына",
+    "position": {
+      "long": "Front-End распрацоўшчык",
+      "short": "FE developer"
+    },
+    "сontact_information": {
+      "email": "nikita{'@'}loshchenin.ru",
+      "place": "Расія, г.Ульянаўск",
+      "preferably": "(пераважна)",
+      "title": "Кантакты:"
+    }
+  },
+  "technology": {
+    "group": {
+      "api": {
+        "title": "API"
+      },
+      "applied": {
+        "title": "APPLIED"
+      },
+      "core": {
+        "title": "Асноўны стэк"
+      },
+      "database": {
+        "title": "Database"
+      },
+      "js": {
+        "title": "JavaScript"
+      },
+      "ui": {
+        "title": "UI"
+      },
+      "vue_extension": {
+        "title": "Vue.js пашырэння"
+      },
+      "web": {
+        "title": "Web"
+      }
+    }
   }
 }

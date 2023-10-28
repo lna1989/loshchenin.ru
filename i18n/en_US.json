@@ -13,5 +13,57 @@
         "title": "Numbers:"
       }
     }
+  },
+  "me": {
+    "birth_date": "November 8, 1989",
+    "current_stack": {
+      "title": "My main technology stack:"
+    },
+    "fio": {
+      "firstname": "Nikita",
+      "lastname": "Loshchenin",
+      "long": "Loshchinin Nikita Alekseevich",
+      "middlename": "Alekseevich",
+      "short": "Loshchenin N.A."
+    },
+    "gender": "Man",
+    "position": {
+      "long": "Front-End developer",
+      "short": "FE developer"
+    },
+    "сontact_information": {
+      "email": "nikita{'@'}loshchenin.ru",
+      "place": "Russia, Ulyanovsk",
+      "preferably": "(preferably)",
+      "title": "Contact information"
+    }
+  },
+  "technology": {
+    "group": {
+      "api": {
+        "title": "API"
+      },
+      "applied": {
+        "title": "APPLIED"
+      },
+      "core": {
+        "title": "Main stack"
+      },
+      "database": {
+        "title": "Database"
+      },
+      "js": {
+        "title": "JavaScript"
+      },
+      "ui": {
+        "title": "UI"
+      },
+      "vue_extension": {
+        "title": "Vue.js extensions"
+      },
+      "web": {
+        "title": "Web"
+      }
+    }
   }
 }
