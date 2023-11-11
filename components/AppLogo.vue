@@ -4,9 +4,11 @@
     <span class="app-logo__fragment app-logo__fragment--pulse font-light">{{
       "|"
     }}</span>
-    <nuxt-link-locale to="/" class="app-logo__fragment text-red-700">{{
-      "lna"
-    }}</nuxt-link-locale>
+    <nuxt-link-locale
+      to="/"
+      class="app-logo__fragment mr-4 inline-flex text-red-700"
+      >{{ "lna" }}</nuxt-link-locale
+    >
     <AppLocaleSwitcher class="mr-1 hidden md:inline-flex" />
     <span class="app-logo__fragment">{{ "/>" }}</span>
   </div>

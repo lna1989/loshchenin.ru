@@ -36,7 +36,7 @@ export async function useTechnologyGroup() {
     technologyList,
     technologyGroupList,
     getSortedTechnologyGroup() {
-      return TECHNOLOGY_SORTED_TYPES.map((type): TechnologyGroup | never[] => {
+      return TECHNOLOGY_SORTED_TYPES.map((type): TechnologyGroup => {
         return technologyGroupList?.[type] || { title: "", type, list: [] };
       });
     },

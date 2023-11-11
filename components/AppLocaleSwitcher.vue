@@ -16,13 +16,13 @@
       >
         <ul
           v-if="isHovered"
-          class="app-locale-switcher__locale-list flex cursor-pointer"
+          class="app-locale-switcher__locale-list border-dividerColor absolute top-full flex flex-col gap-2 rounded-md border border-gray-200 p-4"
         >
           <li
             v-for="item in supportedLocales"
             v-show="item.code !== locale"
             :key="item.code"
-            class="app-locale-switcher__locale-item"
+            class="app-locale-switcher__locale-item ease cursor-pointer transition-colors duration-300 hover:text-red-700"
             @click.prevent="changeLocale(item.code)"
           >
             <span v-if="item.code">{{ item.code }}</span>
@@ -52,12 +52,10 @@ function changeLocale(locale: string) {
 
 <style>
 .app-locale-switcher {
-  .app-locale-switcher__locale-item {
-    &:before {
-      content: "||";
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
+  .app-locale-switcher__locale-list {
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--background);
   }
 }
 </style>

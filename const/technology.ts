@@ -1,3 +1,5 @@
+import type { I18nString } from "~/const/i18n";
+
 enum TechnologyType {
   CORE = "CORE",
   JS = "JS",
@@ -23,25 +25,29 @@ const TECHNOLOGY_SORTED_TYPES = [
   TechnologyType.APPLIED,
 ];
 
-interface TechnologyDescription {
-  ru: string;
-  by: string;
-  en: string;
-}
-
 interface Technology {
   title: string;
   icon: string | null;
   image: string | null;
   link: string;
-  description: TechnologyDescription | null;
+  description: I18nString | null;
   types: TechnologyTypeValues[];
+}
+
+interface TechnologyInput {
+  title: string;
+  icon?: string | null;
+  image?: string | null;
+  link?: string;
+  description?: I18nString | null;
+  types?: TechnologyTypeValues[];
 }
 
 export type {
   TechnologyType,
   TechnologyTypeValues,
-  TechnologyDescription,
+  Description,
   Technology,
+  TechnologyInput,
 };
 export { TECHNOLOGY_TYPES, TECHNOLOGY_SORTED_TYPES };

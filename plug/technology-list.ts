@@ -1,20 +1,7 @@
-import type {
-  Technology,
-  TechnologyDescription,
-  TechnologyTypeValues,
-} from "~/const/technology";
+import type { Technology, TechnologyInput } from "~/const/technology";
 import { TECHNOLOGY_TYPES } from "~/const/technology";
 
-interface TechnologyInput {
-  title: string;
-  icon?: string | null;
-  image?: string | null;
-  link?: string;
-  description?: TechnologyDescription | null;
-  types?: TechnologyTypeValues[];
-}
-
-function createTechnology(data: TechnologyInput) {
+function createTechnology(data: TechnologyInput): Technology {
   return Object.assign(
     {
       title: "",

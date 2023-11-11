@@ -4,6 +4,7 @@
       <div class="-mt-20 flex flex-col pt-20 lg:grid lg:grid-cols-12 lg:gap-8">
         <aside class="lg:col-span-4">
           <AppMeCart />
+          <AppWorkExperienceList :list="workExperienceList" />
         </aside>
         <main class="p-8 lg:col-span-8">
           <AppTechnologyList
@@ -24,6 +25,7 @@
 
 <script setup lang="ts">
 import { useTechnologyGroup } from "~/composables/useTechnologyGroup";
+import { useWorkExperience } from "~/composables/useWorkExperience";
 
 definePageMeta({
   layout: "default",
@@ -31,5 +33,6 @@ definePageMeta({
 
 const { t } = useI18n();
 const { getSortedTechnologyGroup } = await useTechnologyGroup();
+const { workExperienceList } = await useWorkExperience();
 const technologyGroupList = getSortedTechnologyGroup();
 </script>
