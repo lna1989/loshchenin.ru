@@ -12,7 +12,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "bun lint:js && bun lint:prettier",
     "lintfix": "prettier --write --list-different . && bun lint:js --fix",
-    "deploy": "scp -r .output/* j4454134@loshchenin.ru:~/domains/loshchenin.ru/ && ssh j4454134@loshchenin.ru \"mkdir -p ~/domains/loshchenin.ru/tmp && touch ~/domains/example.com/tmp/restart.txt\""
+    "deploy": "scp -r .output/* j4454134@loshchenin.ru:~/domains/loshchenin.ru/ && ssh j4454134@loshchenin.ru \"mkdir -p ~/domains/loshchenin.ru/tmp && touch ~/domains/loshchenin.ru/tmp/restart.txt\""
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -41,6 +41,7 @@
     "sharp"
   ],
   "dependencies": {
+    "@artmizu/yandex-metrika-nuxt": "^1.0.4",
     "nodemailer": "^6.9.8",
     "nuxt": "^3.8.0",
     "sharp": "^0.32.6"

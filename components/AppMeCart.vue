@@ -2,9 +2,14 @@
   <div
     class="dark:highlight-white/5 relative mx-auto flex max-w-sm flex-col content-start items-start gap-6 overflow-visible rounded-xl bg-black text-white shadow-lg ring-1 ring-black/5 dark:bg-white dark:text-black"
   >
-    <img
+    <NuxtImg
+      provider="twicpics"
+      height="96"
+      width="96"
       class="absolute -left-6 -top-2 h-24 w-24 rounded-full border-2 shadow-md"
       src="/images/me/me3.png"
+      loading="lazy"
+      :alt="t('me.сontact_information.name')"
     />
     <div class="flex flex-col py-2 pl-24 pr-5">
       <strong class="text-lg">{{ t("me.fio.long") }}</strong>
@@ -32,7 +37,7 @@
               rel="nofollow"
             >
               <Icon name="mdi:telegram" class="mr-2" />
-              Nikita_Loshchenin
+              {{ t("me.сontact_information.telegram") }}
             </a>
             <span class="text-sm italic">{{
               t("me.сontact_information.preferably")

@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
     "nuxt-seo-experiments",
     "nuxt-link-checker",
+    "@artmizu/yandex-metrika-nuxt",
   ],
   tailwindcss: {
     configPath: "~/configs/tailwind.config.ts",
@@ -57,6 +58,9 @@ export default defineNuxtConfig({
     },
   },
   image: {
+    twicpics: {
+      baseURL: "https://loshchenin.twic.pics/",
+    },
     format: ["avif", "webp"],
   },
   runtimeConfig: {

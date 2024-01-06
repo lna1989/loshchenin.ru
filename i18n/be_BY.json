@@ -49,10 +49,12 @@
       "short": "FE developer"
     },
     "сontact_information": {
+      "name": "Мікіта Аляксеевіч",
       "email": "nikita{'@'}loshchenin.ru",
       "place": "Расія, г.Ульянаўск",
       "preferably": "(пераважна)",
-      "title": "Кантакты:"
+      "title": "Кантакты:",
+      "telegram": "Nikita_Loshchenin"
     }
   },
   "offer_form": {

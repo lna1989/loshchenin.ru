@@ -49,10 +49,12 @@
       "short": "FE developer"
     },
     "сontact_information": {
+      "name": "Nikita_Loshchenin",
       "email": "nikita{'@'}loshchenin.ru",
       "place": "Russia, Ulyanovsk",
       "preferably": "(preferably)",
-      "title": "Contact information"
+      "title": "Contact information",
+      "telegram": "Nikita_Loshchenin"
     }
   },
   "offer_form": {
