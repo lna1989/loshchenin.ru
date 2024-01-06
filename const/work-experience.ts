@@ -1,4 +1,4 @@
-import { I18nString } from "~/const/i18n";
+import type { I18nString } from "~/const/i18n";
 
 interface WorkExperience {
   companyName: I18nString;

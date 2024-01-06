@@ -1,15 +1,43 @@
+enum AllowedLocales {
+  ru = "ru",
+  by = "by",
+  en = "en",
+}
+
 type I18nString = {
-  ru: string;
-  by: string;
-  en: string;
+  [key in AllowedLocales]?: string;
 };
 
+const ALLOWED_LOCALES = [
+  AllowedLocales.ru,
+  AllowedLocales.by,
+  AllowedLocales.en,
+];
+
+function toAllowedLocales(value: string): AllowedLocales {
+  switch (value) {
+    case "ru":
+      return AllowedLocales.ru;
+    case "by":
+      return AllowedLocales.by;
+    case "en":
+      return AllowedLocales.en;
+    default:
+      throw new Error(`Invalid locale: ${value}`);
+  }
+}
+
 type I18N_CIS_DATE_TIME_FORMATS = {
+  month: Intl.DateTimeFormatOptions;
   short: Intl.DateTimeFormatOptions;
   long: Intl.DateTimeFormatOptions;
 };
 
 export const I18N_CIS_DATE_TIME_FORMATS: I18N_CIS_DATE_TIME_FORMATS = {
+  month: {
+    year: "numeric",
+    month: "long",
+  },
   short: {
     year: "numeric",
     month: "long",
@@ -76,3 +104,5 @@ export const I18N_NUMBER_FORMATS = {
 } as const;
 
 export type { I18nString };
+
+export { ALLOWED_LOCALES, toAllowedLocales };

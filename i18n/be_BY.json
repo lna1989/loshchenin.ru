@@ -1,4 +1,14 @@
 {
+  "form": {
+    "action": {
+      "submit": {
+        "text": ""
+      }
+    },
+    "validation": {
+      "required": "Абавязковае поле"
+    }
+  },
   "i18n": {
     "block": {
       "date": {
@@ -38,6 +48,25 @@
       "title": "Кантакты:"
     }
   },
+  "offer_form": {
+    "label": "Предложение",
+    "company_name": {
+      "label": "Назва кампаніі"
+    },
+    "contact_details": {
+      "label": "Кантактныя дадзеныя"
+    },
+    "possibly_salary_after_years": {
+      "label": "Магчымая зарплата праз год"
+    },
+    "salary": {
+      "label": "Прапанаваная зарплата"
+    },
+    "status": {
+      "success": "Прапанова адпраўлена, дзякуй за цікавасць да маёй кандыдатуры!",
+      "fail": "Нешта пайшло не так, паспрабуйце пазней!"
+    }
+  },
   "technology": {
     "group": {
       "api": {
@@ -65,5 +94,11 @@
         "title": "Web"
       }
     }
+  },
+  "work_experience": {
+    "date": {
+      "until_now": "Па цяперашні час"
+    },
+    "title": "Досвед працы"
   }
 }

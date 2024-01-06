@@ -46,4 +46,16 @@ export default defineNuxtConfig({
   image: {
     format: ["avif", "webp"],
   },
+  runtimeConfig: {
+    nodemailerHost: "smtp.yandex.ru",
+    nodemailerPort: "465",
+    nodemailerSecure: "1",
+    nodemailerUser: "nikita@loshchenin.ru",
+    nodemailerPass: "******",
+    nodemailerFrom: "Nikita Loshchenin 👻 <nikita@loshchenin.ru>",
+    nodemailerTo: "nikita@loshchenin.ru",
+    public: {
+      API_V: process.env.API_V,
+    },
+  },
 });

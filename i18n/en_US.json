@@ -1,4 +1,20 @@
 {
+  "page": {
+    "index": {
+      "title": "Website of FE developer Nikita Loshchenin",
+      "description": "On the website, you can use the contact information to contact me, get acquainted with my work experience, technology stack and send your proposal to me."
+    }
+  },
+  "form": {
+    "action": {
+      "submit": {
+        "text": ""
+      }
+    },
+    "validation": {
+      "required": "Required field"
+    }
+  },
   "i18n": {
     "block": {
       "date": {
@@ -38,6 +54,25 @@
       "title": "Contact information"
     }
   },
+  "offer_form": {
+    "label": "Offer",
+    "company_name": {
+      "label": "Company Name"
+    },
+    "contact_details": {
+      "label": "Contact information"
+    },
+    "possibly_salary_after_years": {
+      "label": "Possible salary in a year"
+    },
+    "salary": {
+      "label": "The proposed salary"
+    },
+    "status": {
+      "success": "The offer has been sent, thank you for your interest in my candidacy!",
+      "fail": "Something went wrong, try again later!"
+    }
+  },
   "technology": {
     "group": {
       "api": {
@@ -65,5 +100,11 @@
         "title": "Web"
       }
     }
+  },
+  "work_experience": {
+    "date": {
+      "until_now": "Until now"
+    },
+    "title": "Work experience"
   }
 }

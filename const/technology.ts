@@ -46,7 +46,6 @@ interface TechnologyInput {
 export type {
   TechnologyType,
   TechnologyTypeValues,
-  Description,
   Technology,
   TechnologyInput,
 };
