@@ -67,6 +67,20 @@ const onOfferFormSubmit = () => {
 };
 
 useHead({
-  title: t(""),
+  title: t("page.index.title"),
+  meta: [
+    {
+      name: "description",
+      content: t("page.index.description"),
+    },
+    {
+      name: "keywords",
+      content: t("page.index.keywords"),
+    },
+    {
+      name: "image",
+      content: "https://loshchenin.ru/images/me/me3.png",
+    },
+  ],
 });
 </script>

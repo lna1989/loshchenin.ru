@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  site: {
+    url: "https://loshchenin.ru",
+    name: "Сайт FE разработчика Лощинина Никиты",
+    description:
+      "На сайте вы можете воспользоваться контактной информацией для связи со мной, ознакомиться с моим опытом работы, технологическим стеком и отправить свое предложение ко мне.",
+  },
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
@@ -7,6 +13,13 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxt/image",
     "nuxt-icon",
+    //   SEO
+    "nuxt-simple-robots",
+    "nuxt-simple-sitemap",
+    "nuxt-og-image",
+    "nuxt-schema-org",
+    "nuxt-seo-experiments",
+    "nuxt-link-checker",
   ],
   tailwindcss: {
     configPath: "~/configs/tailwind.config.ts",
@@ -56,6 +69,15 @@ export default defineNuxtConfig({
     nodemailerTo: "nikita@loshchenin.ru",
     public: {
       API_V: process.env.API_V,
+    },
+  },
+  schemaOrg: {
+    identity: {
+      type: "Person",
+      name: "Nikita",
+      familyName: "Loshchenin",
+      email: "nikita@loshchenin.ru",
+      telephone: "+79170616104",
     },
   },
 });

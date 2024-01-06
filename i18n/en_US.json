@@ -2,13 +2,14 @@
   "page": {
     "index": {
       "title": "Website of FE developer Nikita Loshchenin",
-      "description": "On the website, you can use the contact information to contact me, get acquainted with my work experience, technology stack and send your proposal to me."
+      "description": "On the website, you can use the contact information to contact me, get acquainted with my work experience, technology stack and send your proposal to me.",
+      "keywords": "Nikita Loshchenin, Frontend developer, JavaScript developer, Vue.js developer, Nuxt.js developer, Ulyanovsk, Russia, programmer"
     }
   },
   "form": {
     "action": {
       "submit": {
-        "text": ""
+        "text": "Submit"
       }
     },
     "validation": {
